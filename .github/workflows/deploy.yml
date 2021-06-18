@@ -11,7 +11,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        submodules: recursive
+        with:
+          submodules: recursive
 
       - name: Install hugo
         run: sudo apt-get install hugo
