@@ -16,7 +16,7 @@ jobs:
         run: sudo apt-get install hugo
         
       - name: Build site
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
