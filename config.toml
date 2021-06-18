@@ -31,6 +31,11 @@ pygmentscodefencesguesssyntax = true
     custom_css = ["css/custom.css"]
 
 [[menu.main]]
+    name = "PGP Key"
+    weight = 1
+    url = "/mykey.asc"
+
+[[menu.main]]
     name = "Portfolio"
     weight = 2
     url = "/portfolio/"
