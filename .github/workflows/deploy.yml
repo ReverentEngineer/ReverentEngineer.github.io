@@ -11,12 +11,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        submodules: recursive
 
       - name: Install hugo
         run: sudo apt-get install hugo
         
       - name: Build site
-        run: hugo
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
