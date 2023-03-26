@@ -1,9 +1,10 @@
 ---
 title: "Portfolio"
-date: 2019-05-14T19:37:23-04:00
 draft: false
 ---
 
++ [emulot](/emulot) - A tool for managing emulators
++ [cargo-test-scripts](https://crates.io/crates/cargo-test-scripts) - Embeds test scripts in Cargo manifest
 + [rdg](/rdg) - A library and application for generating data using regular expressions
 + [ber](/ber) - A library for parsing Basic Encoding Rules (BER) encoded data
 + [vim-cmake](https://github.com/ReverentEngineer/vim-cmake) - A plugin for interacting with CMake in vim
